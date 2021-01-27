@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding:  0;
+}
+html{
+  font-size: 20px;
+  /* grid-template-columns: 400px ;
+  grid-template-rows: 420px 420px	 420px; */
+  font-family: 'Archivo', sans-serif;
+  /* display: grid; */
+  margin-left: 20px;
+
+}
+
+.sticky-top{
+  background-color: yellow;
+  width: 100%;
+  height: 50px;
+  top: 0;
+}
+section i{
+  font-size: 35px;
+}
+#picture1 {
+  width: 400px;
+  max-width: 1000px;
+  height: auto;
+}
+#PROEFLES{
+  width: 350px;
+  height: 75px;
+  background-color: orange;
+}
+#PROEFLES > h2{
+  /* padding-left: 40px; */
+}
+@media (min-width:400px) {
+  html{
+    /* display: grid; */
+  }
+}
+
+header{
+  position: relative;
+  left: 250px;
+  width: 100px;
+}
+section{
+  grid-column: 1;
+  grid-row: 1/2;
+  font-size: 1.1rem
+}
