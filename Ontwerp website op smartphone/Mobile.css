@@ -13,7 +13,6 @@ html{
 
 }
 .container{
-
 }
 
 .sticky-top{
@@ -38,14 +37,18 @@ section i{
 #PROEFLES > h2{
   /* padding-left: 40px; */
 }
-#first ,#second, #third{
-  width: 100vw;
-  max-width: 600px;
-}
 @media (min-width:1000px) {
 #first ,#second, #third  {
     display: inline-block;
     }
+#first{
+  position: relative;
+  top: 70px;
+}
+.container{
+  display: inline;
+  padding-top: 10
+}
 }
 
 header{
@@ -57,4 +60,8 @@ section{
   grid-column: 1;
   grid-row: 1/2;
   font-size: 1.1rem
+}
+#first ,#second, #third{
+  width: 100vw;
+  max-width: 600px;
 }
