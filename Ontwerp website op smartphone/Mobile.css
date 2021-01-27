@@ -4,11 +4,15 @@
 }
 html{
   font-size: 20px;
-  /* grid-template-columns: 400px ;
-  grid-template-rows: 420px 420px	 420px; */
+  /* grid-template-columns: 400px 400px 400px ;
+  grid-template-rows:  420px; */
   font-family: 'Archivo', sans-serif;
   /* display: grid; */
   margin-left: 20px;
+  /* padding-top: 1200px; */
+
+}
+.container{
 
 }
 
@@ -22,8 +26,8 @@ section i{
   font-size: 35px;
 }
 #picture1 {
-  width: 400px;
-  max-width: 1000px;
+  width: 100vw;
+  max-width: 100vw;
   height: auto;
 }
 #PROEFLES{
@@ -34,10 +38,14 @@ section i{
 #PROEFLES > h2{
   /* padding-left: 40px; */
 }
-@media (min-width:400px) {
-  html{
-    /* display: grid; */
-  }
+#first ,#second, #third{
+  width: 100vw;
+  max-width: 600px;
+}
+@media (min-width:1000px) {
+#first ,#second, #third  {
+    display: inline-block;
+    }
 }
 
 header{
